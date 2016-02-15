@@ -1,0 +1,8 @@
+name: SFcrime-App
+account: datascience4good
+server: shinyapps.io
+bundleId: 372887
+url: https://datascience4good.shinyapps.io/SFcrime-App/
+when: 1455499567.69367
+asMultiple: FALSE
+asStatic: FALSE
