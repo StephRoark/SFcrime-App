@@ -6,7 +6,7 @@ library(tidyr)
 library(readr)
 library(lubridate)
 
-sf_crime <- read_csv("train.csv")
+sf_crime <- read_csv("train.csv.gz")
 
 sf_crime <- sf_crime %>% mutate(month = month(Dates), year=year(Dates)) %>%
     filter( Y < 38 ) %>% filter(year == 2014)
